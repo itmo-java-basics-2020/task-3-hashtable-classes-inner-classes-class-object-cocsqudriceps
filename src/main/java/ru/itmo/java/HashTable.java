@@ -62,7 +62,7 @@ public class HashTable {
         return index;
     }
 
-    private void doubleCapacity() {
+    private void doubleCapacity(){
         capacity *= 2;
         threshold *= 2;
         Entry[] doubled = new Entry[capacity];
